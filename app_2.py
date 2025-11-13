@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = 'https://guilhermeonrails.github.io/api-restaurantes/restaurantes.json' # Um end point
+url = 'https://guilhermeonrails.github.io/api-restaurantes/restaurantes.json' # Um endpoint
 
 response = requests.get(url) # O get() é um verbo do HTTP onde ele vai solicitar um recurso
 
